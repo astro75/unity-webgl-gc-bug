@@ -13,3 +13,5 @@ To reproduce a bug:
 
 Expected result: `monoUsedHeapSize` shows a value of 2 (same as the starting value)
 Actual result: `monoUsedHeapSize` shows a higher value, such as 32 or 62
+
+If you repeat Allocate-Clear-GC steps the used memory will increase every time.
